@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color: reading-room palette. Warm paper, ink, book-cloth moss,
+     pencil-red for annotations, gilt for rare highlights. */
+  --color-paper: #f7f3ea;
+  --color-paper-dim: #efe8d8;
+  --color-paper-line: #e2d9c4;
+  --color-ink: #24211c;
+  --color-ink-soft: #55503f;
+  --color-moss: #3f5741;
+  --color-moss-dark: #2c4030;
+  --color-pencil: #a63d2e;
+  --color-gilt: #b8912f;
+
+  /* Type: Fraunces for display, Source Serif for reading copy,
+     Inter for UI chrome, Caveat only for handwritten margin notes. */
+  --font-display: var(--font-fraunces);
+  --font-serif: var(--font-source-serif);
+  --font-sans: var(--font-inter);
+  --font-hand: var(--font-caveat);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Pencil-underline "draw on" animation used in the hero illustration */
+@keyframes draw-line {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.stroke-draw {
+  animation: draw-line 0.9s ease-out forwards;
+}
+
+/* Small drop-in for the margin note sticky */
+@keyframes pin-drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pin-drop {
+  animation: pin-drop 0.6s ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .stroke-draw {
+    animation: none;
+    stroke-dashoffset: 0 !important;
+  }
+  .pin-drop {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
