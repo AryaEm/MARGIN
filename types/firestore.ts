@@ -46,6 +46,7 @@ export interface ClubMember {
   photoURL?: string | null;
   role: ClubRole;
   joinedAt: Timestamp;
+  clubName: string;
 }
 
 // /clubs/{clubId}/threads/{threadId}

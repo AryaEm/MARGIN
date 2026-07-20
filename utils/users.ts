@@ -1,6 +1,6 @@
 import { doc, getDoc, setDoc, serverTimestamp } from "firebase/firestore";
 import type { User as FirebaseUser } from "firebase/auth";
-import { db } from "./firestore";
+import { db } from "./firebase";
 
 /**
  * Dipanggil setiap kali user login (termasuk login berikutnya).

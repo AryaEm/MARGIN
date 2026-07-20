@@ -67,7 +67,7 @@ export default function ClubPreview() {
               </div>
             </div>
 
-            <GoogleLoginButton className="mt-6 block w-full rounded-full bg-paper py-2.5 text-center font-sans text-sm font-medium text-moss-dark transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-paper disabled:opacity-60">
+            <GoogleLoginButton className="mt-6 block w-full rounded-full bg-paper py-2.5 px-6 text-center font-sans text-sm font-medium text-moss-dark transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-paper disabled:opacity-60">
               Lihat thread lengkap
             </GoogleLoginButton>
           </div>
