@@ -11,13 +11,13 @@ const FEATURES = [
     tag: "nilai",
     accent: "bg-pencil",
     title: "Beri rating & catatan pribadi",
-    desc: "Tulis kesan, kutipan favorit, atau sekadar coretan reaksi — semuanya tersimpan rapi di halaman buku, bukan di notes HP yang berantakan.",
+    desc: "Tulis kesan, kutipan favorit, atau sekadar coretan reaksi, semuanya tersimpan rapi di halaman buku, bukan di notes HP yang berantakan.",
   },
   {
     tag: "diskusi",
     accent: "bg-gilt",
     title: "Diskusi di klub privat",
-    desc: "Ajak beberapa teman baca buku yang sama, lalu lanjutkan obrolan di thread diskusi klub kalian sendiri — tidak terlihat orang di luar klub.",
+    desc: "Ajak beberapa teman baca buku yang sama, lalu lanjutkan obrolan di thread diskusi klub kalian sendiri, tidak terlihat orang di luar klub.",
   },
 ];
 

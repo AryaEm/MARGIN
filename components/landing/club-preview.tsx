@@ -21,13 +21,13 @@ export default function ClubPreview() {
           <p className="mt-5 max-w-md font-serif text-[17px] leading-relaxed text-ink-soft">
             Undang 2–10 teman ke klub privat, sepakati buku yang dibaca
             bareng, dan lanjutkan obrolan di thread diskusi per buku. Tidak
-            ada feed publik, tidak ada orang asing — cuma kalian dan
+            ada feed publik, tidak ada orang asing, cuma kalian dan
             bukunya.
           </p>
           <ul className="mt-6 space-y-2 font-sans text-sm text-ink-soft">
-            <li>— Thread diskusi per buku, bukan satu obrolan campur aduk</li>
-            <li>— Undangan lewat kode, klub tetap privat</li>
-            <li>— Lihat progres baca tiap anggota tanpa spoiler</li>
+            <li>a. Thread diskusi per buku, bukan satu obrolan campur aduk</li>
+            <li>b. Undangan lewat kode, klub tetap privat</li>
+            <li>c. Lihat progres baca tiap anggota tanpa spoiler</li>
           </ul>
         </Reveal>
 

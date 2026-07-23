@@ -3,7 +3,7 @@ import AnnotatedPage from "../anoted-page";
 
 export default function Hero() {
     return (
-        <section className="relative overflow-hidden px-6 pb-20 pt-16 md:px-10 md:pb-28 md:pt-20 min-h-dvh">
+        <section className="relative overflow-hidden px-6 pb-20 pt-16 md:px-10 md:pb-28 md:pt-20 min-h-dvh flex">
             <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-[1.05fr_0.95fr]">
                 <div>
                     <span className="font-hand text-xl text-pencil">
