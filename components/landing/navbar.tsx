@@ -12,7 +12,7 @@ export default function Navbar() {
           Margin
         </Link>
 
-        <div className="hidden items-center gap-8 font-sans text-sm text-ink-soft md:flex">
+        <div className="hidden items-center gap-8 font-sans text-sm text-ink-soft md:flex!">
           <a href="#fitur" className="transition-colors hover:text-ink">
             Fitur
           </a>

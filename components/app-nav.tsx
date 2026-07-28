@@ -26,7 +26,7 @@ export default function AppNav({ user }: { user: User | null }) {
         <Link href="/dashboard" className="font-display text-2xl italic tracking-tight text-ink">
           Margin
         </Link>
-        <nav className="hidden items-center gap-6 font-sans text-sm sm:flex">
+        <nav className="hidden items-center gap-6 font-sans text-sm md:flex!">
           {NAV_ITEMS.map((item) => (
             <Link
               key={item.href}
@@ -45,7 +45,6 @@ export default function AppNav({ user }: { user: User | null }) {
 
       <div className="flex items-center gap-3">
         {user?.photoURL && (
-          // eslint-disable-next-line @next/next/no-img-element
           <img
             src={user.photoURL}
             alt=""
